@@ -9,7 +9,7 @@ the main problem with imbalanced dataset prediction is how accurately are we act
  Now, assume our model predicts that all 100 out of 100 patients have no disease.
  For an imbalanced class dataset F1 score is a more appropriate metric
 Methods Solution:
-1) SMOTE 
-2)Resample the training set 1) Oversampling  , 2) Undersampling  , 3) Use K-fold Cross-Validation
-4) Use the right evaluation metrics
-5) BalancedBaggingClassifier.
+A) SMOTE 
+B)Resample the training set 1) Oversampling  , 2) Undersampling  , 3) Use K-fold Cross-Validation
+C) Use the right evaluation metrics
+D) BalancedBaggingClassifier.
